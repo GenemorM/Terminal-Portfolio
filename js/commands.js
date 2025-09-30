@@ -1,10 +1,10 @@
-var dev = "https://dev.to/cosmicwanderer7";
-var twitter = "https://twitter.com/PrithviYewale";
-var linkedin = "https://www.linkedin.com/in/prithvi-yewale-a77275228/";
-var instagram = "https://www.instagram.com/prithvi_yewale/";
-var github = "https://github.com/cosmicwanderer7";
+var dev = "https://dev.to/genemormuyangana";
+var twitter = "https://twitter.com/GenemorM";
+var linkedin = "https://www.linkedin.com/in/genemor-muyangana-237119364/";
+var instagram = "https://www.instagram.com/genemormuyangana/";
+var github = "https://github.com/GenemorM";
 var sudo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1";
-var email = "mailto:yewaleprithvi2003@gmail.com";
+var email = "mailto:genemormuyangana@gmail.com";
 
 let banner = [
   `<div id="banner-section" class="banner">
@@ -22,7 +22,7 @@ let aboutme = [
   `<li>🧠 Experienced in building responsive websites using Next.js and Tailwind CSS.</li>`,
   `<li>📂 Use the <span class="command">projects</span> command to check out what I’ve built!</li>`,
   `<li>👥 Looking to collaborate on exciting frontend/backend projects.</li>`,
-  `<li>📫 Contact: <a href="mailto:yewaleprithvi2003@gmail.com">yewaleprithvi2003@gmail.com</a></li>`,
+  `<li>📫 Contact: <a href="mailto:genemormuyangana@gmail.com" target="_blank">genemormuyangana@gmail.com</a></li>`,
   "</div>",
   "<br>",
 ];
