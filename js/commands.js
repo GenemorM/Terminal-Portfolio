@@ -15,7 +15,7 @@ let aboutme = [
   `<span class='underline'>Hello, I'm Genemor! 👋</span>`,
   "<br>",
   `<li>🎓 Currently pursuing a BSc (Hons) in Computer Science (Artificial Intelligence) at Asia Pacific University & De Montfort University (Dual Degree).</li>`,
-  `<li>🔧 Aspiring AI engineer with insnterest in fullstack development .</li>`,
+  `<li>🔧 Aspiring AI engineer with interest in fullstack development .</li>`,
   `<li>💡 Always eager to learn new technologies and build meaningful digital products.</li>`,
   `<li>🧠 Experienced in building responsive websites using Next.js and Tailwind CSS.</li>`,
   `<li>📂 Developed <b>Lexio</b>, an AI-powered learning companion that generates personalised notes, flashcards, and quizzes using Google Gemini API & TTS.</li>`,
