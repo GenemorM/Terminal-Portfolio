@@ -56,17 +56,35 @@
             "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=genemorm&api_key=88014e31fee3feab453dcef4f428e4dc&format=json",
           );
           const data = await response.json();
-          const track = data.recenttracks.track?.[0];
+          
+          // Check for API errors first
+          if (data.error) {
+            console.error("Last.fm API error:", data.message);
+            document.getElementById("track-name").textContent = "User not found";
+            document.getElementById("artist-name").textContent = "Check username";
+            return;
+          }
+          
+          // Check if recenttracks exists and has tracks
+          if (data.recenttracks && data.recenttracks.track) {
+            const track = Array.isArray(data.recenttracks.track) 
+              ? data.recenttracks.track[0] 
+              : data.recenttracks.track;
 
-          if (track) {
-            document.getElementById("track-name").textContent =
-              track.name || "N/A";
-            document.getElementById("artist-name").textContent =
-              track.artist["#text"] || "N/A";
-            document.querySelector(".spotify-panel a").href = track.url || "#";
+            if (track) {
+              document.getElementById("track-name").textContent =
+                track.name || "N/A";
+              document.getElementById("artist-name").textContent =
+                track.artist["#text"] || "N/A";
+              document.querySelector(".spotify-panel a").href = track.url || "#";
+            } else {
+              document.getElementById("track-name").textContent =
+                "No track playing";
+              document.getElementById("artist-name").textContent = "-";
+            }
           } else {
             document.getElementById("track-name").textContent =
-              "No track playing";
+              "No tracks found";
             document.getElementById("artist-name").textContent = "-";
           }
         } catch (error) {
