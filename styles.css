@@ -259,7 +259,7 @@ hr {
 }
 
 #liner::before {
-  content: "[prithvi@archrx5500m]~$";
+  content: "[genemor@archrx5500m]~$";
 }
 
 .cursor {
@@ -395,4 +395,45 @@ pre {
 a {
   word-break: break-word;
   overflow-wrap: break-word;
+}
+
+/* Profile Corner Image with Hover Effect */
+.profile-corner {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 1000;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-text);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-corner:hover {
+  transform: scale(1.1);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+
+.corner-profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+.corner-profile-img:hover {
+  content: url('assets/redhood.jpg');
+}
+
+@media (max-width: 768px) {
+  .profile-corner {
+    width: 80px;
+    height: 80px;
+    top: 60px;
+    right: 15px;
+  }
 }

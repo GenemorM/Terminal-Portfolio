@@ -15,14 +15,18 @@ let banner = [
 let aboutme = [
   "<br>",
   `<div id="aboutme-section">`,
-  `<span class='underline'>Hey, I'm Prithvi! 👋</span>`,
+  `<span class='underline'>Hello, I'm Genemor! 👋</span>`,
   "<br>",
-  `<li>🔧 I'm a Desktop Engineer passionate about fullstack development and UI/UX design.</li>`,
+  `<li>🎓 Currently pursuing a BSc (Hons) in Computer Science (Artificial Intelligence) at Asia Pacific University & De Montfort University (Dual Degree).</li>`,
+  `<li>🔧 Desktop Engineer with a passion for fullstack development and UI/UX design.</li>`,
   `<li>💡 Always eager to learn new technologies and build meaningful digital products.</li>`,
   `<li>🧠 Experienced in building responsive websites using Next.js and Tailwind CSS.</li>`,
-  `<li>📂 Use the <span class="command">projects</span> command to check out what I’ve built!</li>`,
+  `<li>📂 Developed <b>Lexio</b>, an AI-powered learning companion that generates personalised notes, flashcards, and quizzes using Google Gemini API & TTS.</li>`,
+  `<li>💻 Skilled in Python, Java, C#, SQL, ReactJS, Node.js, TensorFlow, PyTorch, Hugging Face, AWS, and Git/GitHub.</li>`,
+  `<li>📂 Use the <span class="command">projects</span> command to check out what I've built!</li>`,
   `<li>👥 Looking to collaborate on exciting frontend/backend projects.</li>`,
   `<li>📫 Contact: <a href="mailto:genemormuyangana@gmail.com" target="_blank">genemormuyangana@gmail.com</a></li>`,
+  `<li>🔗 LinkedIn: <a href="https://www.linkedin.com/in/genemor-muyangana-237119364/" target="_blank">https://www.linkedin.com/in/genemor-muyangana-237119364/</a></li>`,
   "</div>",
   "<br>",
 ];
@@ -32,13 +36,13 @@ let social = [
   'dev        <a href="' + dev + '" target="_blank">dev.to/cosmicwanderer7</a>',
   'twitter        <a href="' +
     twitter +
-    '" target="_blank">twitter.com/PrithviYewale</a>',
+    '" target="_blank">twitter.com/GenemorM</a>',
   'linkedin       <a href="' +
     linkedin +
-    '" target="_blank">linkedin/prithviYewale</a>',
+    '" target="_blank">linkedin/genemorm</a>',
   'instagram      <a href="' +
     instagram +
-    '" target="_blank">instagram/prithvi_yewale</a>',
+    '" target="_blank">instagram/genemormuyangana</a>',
   'github         <a href="' +
     github +
     '" target="_blank">github/cosmicwanderer7</a>',
