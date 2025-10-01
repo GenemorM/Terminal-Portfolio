@@ -15,7 +15,7 @@ let aboutme = [
   `<span class='underline'>Hello, I'm Genemor! 👋</span>`,
   "<br>",
   `<li>🎓 Currently pursuing a BSc (Hons) in Computer Science (Artificial Intelligence) at Asia Pacific University & De Montfort University (Dual Degree).</li>`,
-  `<li>🔧 Desktop Engineer with a passion for fullstack development and UI/UX design.</li>`,
+  `<li>🔧 Aspiring AI engineer with insnterest in fullstack development .</li>`,
   `<li>💡 Always eager to learn new technologies and build meaningful digital products.</li>`,
   `<li>🧠 Experienced in building responsive websites using Next.js and Tailwind CSS.</li>`,
   `<li>📂 Developed <b>Lexio</b>, an AI-powered learning companion that generates personalised notes, flashcards, and quizzes using Google Gemini API & TTS.</li>`,
@@ -64,60 +64,31 @@ let help = [
 let projects = [
   "<br>",
   `<div id="projects-section">`,
-  `<a href="https://github.com/cosmicwanderer7/google-clone" target="_blank"><span class='underline'>Google Search Clone</span></a>`,
+  `<a href="https://www.lexio.cloud/" target="_blank"><span class='underline'>Lexio - AI-Powered Learning Companion</span></a>`,
   `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-Functional Google homepage replica using Tailwind CSS and Next.js.
-Live: <a href="https://google-clone-cosmicwanderer7.vercel.app/" target="_blank">google-clone.vercel.app</a>
+An intelligent study app that generates personalised notes, flashcards, quizzes, podcasts, and concept maps from your documents or YouTube videos. Includes study plans, progress tracking, and community forums.
+Live: <a href="https://www.lexio.cloud/" target="_blank">lexio.cloud</a>
 Built With:
-- Next.js
+- React (Vite)
 - Tailwind CSS
-- Programmable Search API
+- Shadcn/ui
+- Convex
+- Clerk
+- Google Gemini API
+- Google Text-to-Speech
+- Vercel
 </pre>`,
 
-  `<a href="https://github.com/cosmicwanderer7/contactform" target="_blank"><span class='underline'>Contact Form with Google Sheets</span></a>`,
+  `<a href="https://github.com/GenemorM/ASL-Detection" target="_blank"><span class='underline'>Real-Time Sign Language Translator</span></a>`,
   `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-Next.js contact form storing data to Google Sheets via API, sends confirmation emails.
-Live: <a href="https://contactform-psi.vercel.app/" target="_blank">contactform-psi.vercel.app</a>
+AI-powered app that translates American Sign Language (ASL) gestures into text in real-time using computer vision and deep learning. Features optional text-to-speech, live webcam integration, and a responsive UI.
 Built With:
-- Next.js
-- Tailwind CSS
-- Google Sheets API
-- IFTTT
-</pre>`,
-
-  `<a href="https://cosmicwanderer7.github.io/Terminal-Portfolio/" target="_blank"><span class='underline'>Terminal-Styled Portfolio</span></a>`,
-  `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-A responsive portfolio that mimics a Linux terminal interface.
-Built With:
-- Vanilla JS
-- Tailwind CSS
-- Yarn
-</pre>`,
-
-  `<a href="https://github.com/cosmicwanderer7/github-script" target="_blank"><span class='underline'>GitHub Init Script</span></a>`,
-  `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-Bash script that automates GitHub repo creation and initial commit setup.
-Built With:
-- Bash
-- GitHub API
-</pre>`,
-
-  `<a href="https://github.com/cosmicwanderer7/guacamole-deploy" target="_blank"><span class='underline'>Apache Guacamole on OCI</span></a>`,
-  `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-Remote desktop gateway deployment for secure access on Oracle Cloud.
-Built With:
-- Apache Guacamole
-- Oracle Cloud
-- Linux
-</pre>`,
-
-  `<a href="https://github.com/cosmicwanderer7/mumble-deploy" target="_blank"><span class='underline'>Mumble Server on OCI</span></a>`,
-  `<pre class="indent-8 whitespace-pre-wrap break-words overflow-x-auto">
-Voice chat server deployed on cloud for low-latency communication.
-Built With:
-- Mumble
-- Oracle Cloud
-- Linux
+- TensorFlow/Keras (MobileNetV2)
+- OpenCV
+- MediaPipe
+- Flask (API backend)
+- React.js (frontend)
+- Web Speech API
 </pre>`,
   "</div>",
   "<br>",
