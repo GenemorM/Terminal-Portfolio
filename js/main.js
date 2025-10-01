@@ -26,10 +26,7 @@ const commandMap = {
   history: "history",
   sudo: "sudo",
   clear: "clear",
-  dev: "dev",
-  twitter: "twitter",
   linkedin: "linkedin",
-  instagram: "instagram",
   github: "github",
   snake: "snake",
 };
@@ -189,21 +186,9 @@ function commander(cmd) {
         scrollToBottom();
       }, 1);
       break;
-    case "dev":
-      addLine("Opening Dev.to...", "color2", 80);
-      newTab(dev);
-      break;
-    case "twitter":
-      addLine("Opening Twitter...", "color2", 0);
-      newTab(twitter);
-      break;
     case "linkedin":
       addLine("Opening LinkedIn...", "color2", 0);
       newTab(linkedin);
-      break;
-    case "instagram":
-      addLine("Opening Instagram...", "color2", 0);
-      newTab(instagram);
       break;
     case "github":
       addLine("Opening GitHub...", "color2", 0);

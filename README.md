@@ -36,10 +36,9 @@ Based on [this GitHub repository](https://github.com/cosmicwanderer7/portfolio).
 
 ---
 
-## Contact
+## 🌐 Connect with Me
 
-- 📧 Email: [yewaleprithvi2003@gmail.com](mailto:yewaleprithvi2003@gmail.com)  
-- 🐦 Twitter: [@PrithviYewale](https://twitter.com/PrithviYewale)  
-- 📸 Instagram: [@prithvi_yewale](https://www.instagram.com/prithvi_yewale)
+- 💼 LinkedIn: [@genemor-muyangana](https://www.linkedin.com/in/genemor-muyangana-237119364/)
+- 🐙 GitHub: [@GenemorM](https://github.com/GenemorM)
 
 <p align="right">(<a href="#about-the-project">back to top</a>)</p>

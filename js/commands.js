@@ -1,7 +1,4 @@
-var dev = "https://dev.to/genemormuyangana";
-var twitter = "https://twitter.com/GenemorM";
 var linkedin = "https://www.linkedin.com/in/genemor-muyangana-237119364/";
-var instagram = "https://www.instagram.com/genemormuyangana/";
 var github = "https://github.com/GenemorM";
 var sudo = "https://www.youtube.com/watch?v=dQw4w9WgXcQ?autoplay=1";
 var email = "mailto:genemormuyangana@gmail.com";
@@ -33,19 +30,12 @@ let aboutme = [
 
 let social = [
   "<br>",
-  'dev        <a href="' + dev + '" target="_blank">dev.to/cosmicwanderer7</a>',
-  'twitter        <a href="' +
-    twitter +
-    '" target="_blank">twitter.com/GenemorM</a>',
   'linkedin       <a href="' +
     linkedin +
     '" target="_blank">linkedin/genemorm</a>',
-  'instagram      <a href="' +
-    instagram +
-    '" target="_blank">instagram/genemormuyangana</a>',
   'github         <a href="' +
     github +
-    '" target="_blank">github/cosmicwanderer7</a>',
+    '" target="_blank">github/GenemorM</a>',
   "<br>",
 ];
 
